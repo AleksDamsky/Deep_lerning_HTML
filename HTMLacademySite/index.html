@@ -9,17 +9,17 @@
       name="description"
       content="Сайт по примерам, по макетам. Практика."
     />
-    <link rel="stylesheet" href="../HTMLacademySite/style/style.css" />
+    <link rel="stylesheet" href="../HTMLacademySite/Part 1,5/style/style.css" />
     <style>
       body {
         margin-right: 50px;
         margin-left: 50px;
         margin-top: 50px;
-        padding: 0;
+        padding: 20px;
         font-size: 13px;
         font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
         color: rgb(30, 57, 58);
-        
+        border: 1px solid black;
       }
       .time {
         color: rgb(117, 26, 26);
@@ -27,8 +27,16 @@
       .em, .i {
         background-color: bisque;
       }
-      .link-to-academy{
+      .link{
         text-decoration: none;
+        color: blueviolet;
+      }
+      .link:hover{
+        color: rgb(148, 75, 117);
+        transition: all 0.3s;
+        background-color:  rgba(148, 75, 118, 0.308);
+        padding: 5px;
+        border-radius: 25px;
       }
       .footer-span{
         color: blueviolet;
@@ -170,7 +178,8 @@
     <br />
     <footer class="footer">
       <div class="div">
-        Вот и подошел к концу срок изучения от <a class="link-to-academy" href="https://htmlacademy.ru/study" target="_blank"><span class="span footer-span">HTMLacademy</span></a> пункта 1.5;
+        Вот и подошел к концу срок изучения от <a class="link link-to-academy" href="https://htmlacademy.ru/study" target="_blank"><span class="span footer-span">HTMLacademy</span></a> пункта 1.5;
+        <p><a class="link" href="..//HTMLacademySite/Part 1,6/index.html" target="_blank" rel="noopener noreferrer">Перейти на 1.6</a></p>
       </div>
     </footer>
   </body>
