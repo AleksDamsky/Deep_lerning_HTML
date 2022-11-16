@@ -6,4 +6,9 @@ body {
   box-sizing: border-box;
   background-color: rgb(245, 218, 218);
   color: rgb(151, 13, 13);
+  line-height: 26px;
+}
+
+.ul-navigation {
+  list-style-type: none;
 }
