@@ -43,6 +43,13 @@ body {
   list-style-type: none;
 }
 
+.font {
+  font-weight: bold;
+  background-color: rgba(170, 128, 77, 0.507);
+  padding: 10px;
+  border-radius: 2em;
+}
+
 .link-font-size {
   text-decoration: none;
   color: inherit;
