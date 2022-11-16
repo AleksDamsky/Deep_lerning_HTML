@@ -32,4 +32,18 @@ body {
   font-size: 12px;
   background-color: rgba(76, 216, 197, 0.342);
   border-radius: 20px;
+  color: #b8701f;
+}
+
+.zag {
+  text-align: center;
+}
+
+.font-rules {
+  list-style-type: none;
+}
+
+.link-font-size {
+  text-decoration: none;
+  color: inherit;
 }
