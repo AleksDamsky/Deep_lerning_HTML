@@ -9,6 +9,26 @@ body {
   line-height: 26px;
 }
 
+.logo {
+  text-align: center;
+}
+
 .ul-navigation {
   list-style-type: none;
+}
+
+.dl {
+  border: 2px solid lightslategray;
+  border-radius: 25px;
+}
+
+.dt,
+.dd {
+  margin: 10px;
+}
+
+.dd {
+  text-align: center;
+  background-color: rgba(76, 216, 197, 0.342);
+  border-radius: 20px;
 }
