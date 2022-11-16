@@ -29,6 +29,7 @@ body {
 
 .dd {
   text-align: center;
+  font-size: 12px;
   background-color: rgba(76, 216, 197, 0.342);
   border-radius: 20px;
 }
