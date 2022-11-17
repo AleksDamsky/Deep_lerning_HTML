@@ -96,3 +96,18 @@ body {
   color: #d597ff;
   transition: all 0.2s;
 }
+
+.image-and-description {
+  /* text-align: center; */
+  /* display: flex; */
+}
+
+.epe {
+  width: 10em;
+  border-radius: 50%;
+}
+
+.description {
+  vertical-align: top;
+  text-align: center;
+}
