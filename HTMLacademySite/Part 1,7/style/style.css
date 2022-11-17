@@ -87,3 +87,12 @@ body {
   text-align: justify;
   color: #7505c0;
 }
+
+.text-align-justify-link {
+  text-decoration: none;
+}
+
+.text-align-justify-link:hover {
+  color: #d597ff;
+  transition: all 0.2s;
+}
