@@ -48,6 +48,7 @@ body {
   background-color: rgba(170, 128, 77, 0.507);
   padding: 10px;
   border-radius: 2em;
+  text-align: center;
 }
 
 .link-font-size {
@@ -65,4 +66,24 @@ body {
   padding: 10px;
   line-height: 70px;
   border: 2px solid black;
+}
+
+.text-align-right {
+  text-align: right;
+  color: #05c043;
+}
+
+.text-align-left {
+  text-align: left;
+  color: #0575c0;
+}
+
+.text-align-center {
+  text-align: center;
+  color: #c42494;
+}
+
+.text-align-justify {
+  text-align: justify;
+  color: #7505c0;
 }
