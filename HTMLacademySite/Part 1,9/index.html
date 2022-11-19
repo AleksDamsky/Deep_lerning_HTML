@@ -18,17 +18,46 @@
       <section class="text form">
         <dl class="form-list">
           <dt class="theg-form">&lt;form&gt;</dt>
-          <dd class="form-list-description">
+          <dd class="form-list-definition">
             Форма - это тэг, помогающий отправить информацию с веб-страницы на
             веб-сервис. <br />
             У этого тэга есть атрибуты - <i>action</i> и <i>method</i>. <br />
-            <i id="action-color" style="text-decoration: underline">action</i
-            >-нужен для того, чтобы задать ссылку для отправки информации
-            (куда). <br />
-            <i class="method-color" style="text-decoration: underline">method</i
-            >-нужен для того, чтобы передать метод отправки информации.
+            <i id="action-color" style="text-decoration: underline">action</i> -
+            нужен для того, чтобы задать ссылку для отправки информации (куда).
+            <br />
+            <i class="method-color" style="text-decoration: underline"
+              >method</i
+            >
+            - нужен для того, чтобы передать метод отправки информации.
           </dd>
         </dl>
+        <div class="example">
+          &lt;form action="#" method="get"&gt;&lt;/form&gt;
+        </div>
+      </section>
+
+      <section class="text input">
+        <dl class="input-list">
+          <dt class="theg-input">&lt;input&gt;</dt>
+          <dd class="input-list-definition">
+            Инпут - это тег, который создает поле для ввода данных. Это может
+            быть текст (в онсновном его используют).<br />
+            У него есть атрибуты <i>type</i> и <i>name</i>. <br />
+            <i id="type-color" style="text-decoration: underline">type</i> -
+            нужен для того, чтобы задавать тип полю ввода. <br />
+            <i class="name-color" style="text-decoration: underline">name</i> -
+            нужен для того, чтобы задавать имя полю (зачем оно).
+          </dd>
+        </dl>
+
+        <div class="example">
+          <input
+            type="text"
+            name="Aleks"
+            title="это поле ввода от input"
+            style="border-radius: 25px"
+          />
+        </div>
       </section>
     </main>
 
