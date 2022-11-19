@@ -23,6 +23,19 @@ body {
 .header {
 }
 
+.logo-and-I {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 41%;
+  margin-left: 41%;
+}
+
+.logo {
+  margin-top: 25%;
+  vertical-align: middle;
+}
+
 .header-description {
   text-align: center;
 }
