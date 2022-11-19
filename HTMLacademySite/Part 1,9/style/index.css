@@ -50,3 +50,28 @@ body {
 .input-list {
   text-align: center;
 }
+
+hr,
+#hr-one {
+  width: 50%;
+  margin: 40px 100px 40px 330px;
+}
+
+.some-inf {
+  border: 3px dashed rgb(128, 47, 0);
+  border-radius: 2em;
+  margin: 20px 250px 0 250px;
+}
+
+.inf {
+  text-align: center;
+  padding: 20px;
+}
+
+.title-inf {
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+  background: rgba(255, 238, 0, 0.164);
+  border-radius: 25px;
+}
