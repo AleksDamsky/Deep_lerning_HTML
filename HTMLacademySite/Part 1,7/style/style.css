@@ -111,3 +111,57 @@ body {
   vertical-align: top;
   text-align: center;
 }
+
+.nowrap {
+  border: 3px solid black;
+  padding: 5px;
+  white-space: nowrap;
+}
+.pre {
+  border: 3px solid black;
+  padding: 5px;
+  white-space: pre;
+}
+.pre-wrap {
+  border: 3px solid black;
+  padding: 5px;
+  white-space: pre-wrap;
+}
+.normal {
+  border: 3px solid black;
+  padding: 5px;
+  white-space: normal;
+}
+
+.span-nowrap {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 17px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+.span-pre {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+.span-pre-wrap {
+  font-style: oblique;
+  font-weight: 600;
+  font-size: 17px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+.span-normal {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 17px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
