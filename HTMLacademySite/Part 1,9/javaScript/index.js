@@ -4,16 +4,6 @@
 
 function getElement(massiv) {
   let a = [];
-  for (let i = 0; i <= massiv.length; i++) {
-    // if (i % 1 === i) {
-    //   a.push(i);
-    //   return a;
-    // } else {
-    //   console.log("error");
-    // }
-    alert(massiv.length);
-    break;
-  }
+  for (let i = 0; i <= massiv.length; i++) {}
 }
-
 getElement([1, 2, "a", "b"]);
