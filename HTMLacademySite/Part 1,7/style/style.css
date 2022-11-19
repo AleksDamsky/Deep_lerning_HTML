@@ -165,3 +165,23 @@ body {
   text-decoration: underline;
   text-decoration-style: dotted;
 }
+
+.btn {
+  text-align: center;
+}
+
+.btn-click {
+  /* cursor: pointer; */
+  text-transform: lowercase;
+  border: none;
+  background-color: rgb(245, 218, 218);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(151, 13, 13);
+}
+a:hover {
+  color: blue;
+  transition: all 0.2s;
+}
