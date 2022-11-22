@@ -93,3 +93,11 @@ hr,
 #line {
   margin-left: 191px;
 }
+
+.definition-input-label {
+  margin: 20px 100px 0 100px;
+}
+
+.input-one {
+  padding: 20px;
+}
