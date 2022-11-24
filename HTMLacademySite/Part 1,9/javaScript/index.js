@@ -8,38 +8,38 @@
 // }
 // getElement([1, 2, "a", "b"]);
 
-let massiv = ["lol", "kek", "bob", "roy", "fri"];
+// let massiv = ["lol", "kek", "bob", "roy", "fri"];
 
-let massiv2 = ["2", "3", "5"];
+// let massiv2 = ["2", "3", "5"];
 
-console.log(massiv);
+// console.log(massiv);
 
-massiv.pop();
+// massiv.pop();
 
-console.log(massiv);
+// console.log(massiv);
 
-massiv.push("dick");
+// massiv.push("dick");
 
-console.log(massiv);
+// console.log(massiv);
 
-massiv.shift();
+// massiv.shift();
 
-console.log(massiv);
+// console.log(massiv);
 
-massiv.unshift("gerda");
+// massiv.unshift("gerda");
 
-console.log(massiv);
+// console.log(massiv);
 
-console.log(massiv.length);
+// console.log(massiv.length);
 
-let obj = massiv.concat(massiv2);
+// let obj = massiv.concat(massiv2);
 
-console.log(obj);
+// console.log(obj);
 
-massiv.splice(4, 0, "chum");
+// massiv.splice(4, 0, "chum");
 
-console.log(massiv);
+// console.log(massiv);
 
-massiv.slice(1, 2);
+// massiv.slice(1, 2);
 
-console.log(massiv);
+// console.log(massiv);
