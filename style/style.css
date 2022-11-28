@@ -6,24 +6,21 @@ body {
   box-sizing: border-box;
 }
 
-.fields {
-  width: 40px;
-  height: 130px;
-  border: 1px solid rgb(185, 185, 185);
-  background-color: rgb(187, 187, 187);
-}
-
-.wrapp {
-  width: 100%;
-  margin: 30px 60px 0 0;
-}
-
-.header {
-  width: 100%;
+.container {
+  margin: 0 100px 0 100px;
 }
 
 .navigation {
-  width: inherit;
   display: flex;
   justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  padding: 20px;
+  list-style: none;
 }
