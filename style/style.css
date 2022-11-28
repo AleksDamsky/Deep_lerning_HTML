@@ -10,9 +10,21 @@ body {
   margin: 0 100px 0 100px;
 }
 
+.line {
+  position: absolute;
+  width: 30px;
+  height: 70px;
+  border: 1px grey solid;
+  background: gray;
+}
+
 .navigation {
   display: flex;
   justify-content: space-between;
+}
+
+.logo {
+  margin-top: 30px;
 }
 
 .nav-list {
@@ -21,6 +33,12 @@ body {
 }
 
 .nav-link {
-  padding: 20px;
+  padding: 10px;
   list-style: none;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
 }
