@@ -77,6 +77,13 @@ a {
   color: black;
 }
 
+/*main*/
+
+.main {
+  width: auto;
+  height: auto;
+}
+
 /*main-block*/
 
 .main-block {
@@ -86,18 +93,15 @@ a {
 }
 
 .photo {
-  width: 30em;
+  width: 29em;
   height: 30em;
   position: absolute;
-  margin-left: 50px;
+  margin-left: 20rem;
   /* filter: opacity(90%); /*Это свойсвто делатет картинку прозрачнее */
 }
 
-.greeting,
-.profession {
+.greeting {
   position: relative;
-}
-
-.greteeng-text {
-  vertical-align: bottom;
+  width: 30%;
+  /* vertical-align: bottom; */ /*Why doesn't work>*/
 }
