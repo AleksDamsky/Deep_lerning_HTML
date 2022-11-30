@@ -38,12 +38,12 @@ body {
   position: absolute;
   width: 30px;
   height: 70px;
-  border: 1px grey solid;
-  background: gray;
+  border: 1px rgb(216, 214, 214);
+  background: rgb(216, 214, 214);
 }
 
 .line-header {
-  border-bottom: 2px solid rgb(185, 185, 185);
+  border-bottom: 2px solid rgb(226, 225, 225);
 }
 
 .line-main {
@@ -71,10 +71,21 @@ body {
   list-style: none;
 }
 
-a {
+.nav-git,
+.nav-vk,
+.nav-tm,
+.logo-link {
   font-size: 18px;
   text-decoration: none;
   color: black;
+}
+
+.nav-git:hover,
+.nav-vk:hover,
+.nav-tm:hover,
+.logo-link:hover {
+  color: rgba(187, 187, 67, 0.897);
+  transition: all 0.15s;
 }
 
 /*main*/
@@ -82,6 +93,7 @@ a {
 .main {
   width: auto;
   height: auto;
+  border-bottom: 3px solid black;
 }
 
 /*main-block*/
@@ -97,11 +109,32 @@ a {
   height: 30em;
   position: absolute;
   margin-left: 20rem;
+  border-radius: 10%;
+  border: 3px solid black;
   /* filter: opacity(90%); /*Это свойсвто делатет картинку прозрачнее */
 }
+
+/*greeting*/
 
 .greeting {
   position: relative;
   width: 30%;
   /* vertical-align: bottom; */ /*Why doesn't work>*/
+}
+
+.greeting-text-one {
+  font-size: 20px;
+}
+
+.h-greeting-text-one {
+  margin-right: 50px;
+}
+
+.greeting-text-two {
+  width: 80%;
+  text-align: left;
+}
+.h-greeting-text-two {
+  background-color: yellow;
+  padding: 5px;
 }
