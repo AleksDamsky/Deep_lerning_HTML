@@ -10,11 +10,10 @@ function parseArray(array) {
   let newArray = array.sort((a, b) => a - b);
   //   console.log(newArray);
 
-  console.log(newArray[newArray - 1]);
+  let strArray = newArray.join(" ");
+  console.log(strArray);
 
-  //   let strArray = newArray.join(" ");
-  //   console.log(strArray);
-
-  //   console.log(strArray[strArray.lenght - 1]);
+  let shiftArr = strArray.shift();
+  console.log(shiftArr);
 }
 parseArray([2, 5, 6, 12, -23]);
