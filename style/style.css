@@ -4,6 +4,15 @@
   .navigation {
     width: 800px;
   }
+
+  .photo {
+    width: 20em;
+    height: 21em;
+    /* position: absolute; */
+    /* margin-left: 20rem;
+    border-radius: 10%;
+    border: 3px solid black; */
+  }
 }
 @media only screen and (max-width: 800px) {
   .navigation {
@@ -18,10 +27,6 @@
 @media only screen and (max-width: 400px) {
   .navigation {
     width: 200px;
-  }
-
-  .logo {
-    margin: 0;
   }
 }
 @media only screen and (max-width: 200px) {
