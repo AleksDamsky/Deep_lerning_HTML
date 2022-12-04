@@ -29,9 +29,20 @@ parseArray([34, 27527, 4, 456, -88, -23]);
 function showResults(str, ending) {
   //Создам пустой массив, куда внесу строку
   //К строке пименим метод .split() и сепаратором будет "" без пробела (без пробела разбиваются слова на буквы). Если с пробелом в сепараторе, то разбивается предложение на слова.
-  let arrayOfString = str.split("");
+  let arrOfStr = str.split("");
+  let end = ending.split("");
 
-  console.log(arrayOfString);
+  //Создадим цикл, который перебирает элементы массива
+  for (; end.lenght <= arrOfStr.lenght; end.lenght++) {
+    if (
+      end.lenght == arrOfStr.lenght(-1) &&
+      end.lenght == arrOfStr.lenght(-2)
+    ) {
+      console.log(true);
+    } else {
+      console.log(false);
+    }
+  }
 }
 
-showResults("abc");
+showResults("abc", "bc");
