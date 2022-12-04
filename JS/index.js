@@ -24,3 +24,16 @@ function parseArray(array) {
 }
 parseArray([25, 236, 888, 0, -2343, -4]);
 parseArray([34, 27527, 4, 456, -88, -23]);
+
+//Создадим функцию, которая принимает в себя строку и конец ее
+function showResults(str, ending) {
+  //Создам пустой массив, куда внесу строку
+  let array = [];
+
+  //Добавлю в массив строку
+  array.push(str);
+
+  console.log(array);
+}
+
+showResults("lololo");
