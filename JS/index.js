@@ -28,12 +28,10 @@ parseArray([34, 27527, 4, 456, -88, -23]);
 //Создадим функцию, которая принимает в себя строку и конец ее
 function showResults(str, ending) {
   //Создам пустой массив, куда внесу строку
-  let array = [];
+  //К строке пименим метод .split() и сепаратором будет "" без пробела (без пробела разбиваются слова на буквы). Если с пробелом в сепараторе, то разбивается предложение на слова.
+  let arrayOfString = str.split("");
 
-  //Добавлю в массив строку
-  array.push(str);
-
-  console.log(array);
+  console.log(arrayOfString);
 }
 
-showResults("lololo");
+showResults("abc");
