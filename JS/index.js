@@ -40,4 +40,4 @@ function showResults(str, ending) {
 
 showResults("abc", "bc");
 
-//Условие не работает...
+//Условие не работает...ю
