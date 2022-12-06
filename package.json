@@ -1,0 +1,23 @@
+{
+  "name": "deep_lerning_html",
+  "version": "1.0.0",
+  "description": "Base practice for study JS\r Show my pups practice https://aleksdamsky.github.io/Deep_lerning_HTML/\r Нажми на HRIPNV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksDamsky/Deep_lerning_HTML.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksDamsky/Deep_lerning_HTML/issues"
+  },
+  "homepage": "https://github.com/AleksDamsky/Deep_lerning_HTML#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0"
+  }
+}
