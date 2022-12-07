@@ -34,3 +34,4 @@ function getDublicate(str, dubl) {
 }
 
 getDublicate("some body one", "ne");
+/*Нужно зайти на ВЕб мозиллу в часть с методами для строки*/
