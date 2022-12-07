@@ -24,8 +24,13 @@ parseArray([34, 27527, 4, 456, -88, -23]);
 //Создал функцию, которая принимает строку и дубликат,
 function getDublicate(str, dubl) {
   //создал переменную, в которую запишем позицию искомого элемента
-  let searchDubl = str.indexOf(dubl);
-  console.log(searchDubl);
+  for (let i = 0; i <= str.lenght; i++) {
+    if (str.indexOf(dubl)) {
+      console.log("true");
+    } else if (!str.indexOf(dubl)) {
+      console.log("true");
+    }
+  }
 }
 
-getDublicate("some body one", "o");
+getDublicate("some body one", "ne");
