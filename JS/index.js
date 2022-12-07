@@ -41,3 +41,10 @@ function showResults(str, ending) {
 showResults("abc", "bc");
 
 //Условие не работает...ю
+let str = "lol, hi my friend";
+console.log(str.indexOf("fr"));
+
+/* Задача № 3------------------------------------*/
+
+//Нужно подсчитать количество дубликатов в строке
+function getDublicate(str, dubl) {}
