@@ -17,34 +17,15 @@ function parseArray(array) {
 parseArray([25, 236, 888, 0, -2343, -4]);
 parseArray([34, 27527, 4, 456, -88, -23]);
 
-/*---------------------------------------Задача 2*/
-//Создадим функцию, которая принимает в себя строку и конец ее
-function showResults(str, ending) {
-  //Создам пустой массив, куда внесу строку
-  //К строке пименим метод .split() и сепаратором будет "" без пробела (без пробела разбиваются слова на буквы). Если с пробелом в сепараторе, то разбивается предложение на слова.
-  let arrOfStr = str.split("");
-  let end = ending.split("");
+/* Задача № 2------------------------------------*/
 
-  //Создадим цикл, который перебирает элементы массива
-  for (; end.lenght <= arrOfStr.lenght; end.lenght++) {
-    if (
-      end.lenght == arrOfStr.lenght(-1) &&
-      end.lenght == arrOfStr.lenght(-2)
-    ) {
-      console.log(true);
-    } else {
-      console.log(false);
-    }
-  }
+//Нужно вывести true or false, если есть или отсутсвует значение введенное.
+
+//Создал функцию, которая принимает строку и дубликат,
+function getDublicate(str, dubl) {
+  //создал переменную, в которую запишем позицию искомого элемента
+  let searchDubl = str.indexOf(dubl);
+  console.log(searchDubl);
 }
 
-showResults("abc", "bc");
-
-//Условие не работает...ю
-let str = "lol, hi my friend";
-console.log(str.indexOf("fr"));
-
-/* Задача № 3------------------------------------*/
-
-//Нужно подсчитать количество дубликатов в строке
-function getDublicate(str, dubl) {}
+getDublicate("some body one", "o");
