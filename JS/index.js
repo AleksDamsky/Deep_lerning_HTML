@@ -22,16 +22,37 @@ parseArray([34, 27527, 4, 456, -88, -23]);
 //Нужно вывести true or false, если есть или отсутсвует значение введенное.
 
 //Создал функцию, которая принимает строку и дубликат,
-function getDublicate(str, dubl) {
-  //создал переменную, в которую запишем позицию искомого элемента
-  for (let i = 0; i <= str.lenght; i++) {
-    if (str.indexOf(dubl)) {
-      console.log("true");
-    } else if (!str.indexOf(dubl)) {
-      console.log("true");
+// function getDublicate(str, dubl) {
+//   let arrOfStr = [];
+//   arrOfStr.push(str);
+
+//   for (let i = 0; i <= arrOfStr.lenght; i++) {
+//     let result = arrOfStr[i];
+//     if (str.indexOf(dubl) !== -1) {
+//       return true;
+//     } else {
+//       return false;
+//     }
+//   }
+// }
+
+// getDublicate("some body one", "ne");
+/*Нужно зайти на ВЕб мозиллу в часть с методами для строки*/
+
+/*Задача № 4-------------------------------------*/
+// Попробую из головы решить задачу с физз базз
+
+// Это функция, которая не перебирает массив...
+function fizzBuzz(num) {
+  for (let i = 1; i <= num; i++) {
+    if (i % 2 === 0 && i % 5 === 0) {
+      console.log("FizzBuzz");
+    } else if (i % 5 === 0) {
+      console.log("Buzz");
+    } else if (i % 2 === 0) {
+      console.log("Fizz");
     }
   }
 }
 
-getDublicate("some body one", "ne");
-/*Нужно зайти на ВЕб мозиллу в часть с методами для строки*/
+fizzBuzz(2);
