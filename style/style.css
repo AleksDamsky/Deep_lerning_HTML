@@ -29,6 +29,10 @@
   .navigation {
     width: 200px;
   }
+  .photo {
+    width: 10em;
+    height: 11em;
+  }
 }
 @media only screen and (max-width: 200px) {
   .navigation {
