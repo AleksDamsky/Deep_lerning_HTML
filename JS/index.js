@@ -69,4 +69,11 @@
 
 // reverseText("This is an example!");
 
-function revWords(text) {}
+function revWords(text) {
+  let arr = text.split(" ");
+  let arr2 = arr.splice(1).reverse();
+  console.log(arr);
+  console.log(arr2);
+}
+
+revWords("This is an example!");
