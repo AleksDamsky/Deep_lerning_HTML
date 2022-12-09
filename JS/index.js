@@ -77,3 +77,5 @@ function revWords(text) {
 }
 
 revWords("This is an example!");
+
+//это называется "слово задом наперед"
