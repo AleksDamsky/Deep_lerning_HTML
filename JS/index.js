@@ -83,13 +83,25 @@
 
 //это называется "слово задом наперед"
 
-function getRevTxt(str) {
-  let newStr = "";
+// function getRevTxt(str) {
+//   let newStr = "";
 
-  for (let i = 0; i <= str.length; i++) {
-    newStr += str([str.length - 1] - i);
+//   for (let i = 0; i <= str.length; i++) {
+//     newStr += str([str.length - 1] - i);
+//   }
+//   return newStr;
+// }
+
+// getRevTxt("This is an example!");
+
+function getRev(str) {
+  let arr = str.split(" ");
+  console.log(arr);
+
+  for (let i = 0; i <= arr.length; i++) {
+    let arr2 = i.reverse();
   }
-  return newStr;
+  return arr;
 }
 
-getRevTxt("This is an example!");
+getRev("This is an example!");
