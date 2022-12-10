@@ -99,10 +99,11 @@ function getRev(str) {
   let arr = str.split(" ");
   console.log(arr);
 
+  let arr2 = [];
   for (let i = 0; i <= arr.length; i++) {
-    let arr2 = i.reverse();
+    arr2 = arr.reverse();
   }
-  return arr2;
+  console.log(arr2);
 }
 
 getRev("This is an example!");
