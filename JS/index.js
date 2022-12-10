@@ -95,15 +95,25 @@
 // getRevTxt("This is an example!");
 
 /*Короче, тут нужно сделать через перебор обращение к каждому элементу массива. После обращения задать ему возможность стать задом наперед*/
+function getRevStr(txt) {
+  let arr = txt.split(" ");
+  console.log(arr);
+  arr.forEach((elem) => {
+    console.log(elem);
+  });
+}
+
+getRevStr("This is an example!");
+
 function getRev(str) {
   let arr = str.split(" ");
-  console.log(arr);
+  // console.log(arr);
 
   let arr2 = [];
   for (let i = 0; i <= arr.length; i++) {
-    arr2 = arr.reverse();
+    arr2.push(arr.shift(0, 0));
+    console.log(arr2);
   }
-  console.log(arr2);
 }
 
 getRev("This is an example!");
