@@ -95,18 +95,18 @@
 // getRevTxt("This is an example!");
 
 /*Короче, тут нужно сделать через перебор обращение к каждому элементу массива. После обращения задать ему возможность стать задом наперед*/
-function getRevStr(txt) {
-  let arr = txt.split(" ");
-  console.log(arr);
-  arr.forEach((elem) => {
-    console.log(elem);
-    let arr2 = [];
-    arr2.push(elem);
-    console.log(arr2);
-  });
-}
+// function getRevStr(txt) {
+//   let arr = txt.split(" ");
+//   console.log(arr);
+//   arr.forEach((elem) => {
+//     console.log(elem);
+//     let arr2 = [];
+//     arr2.push(elem);
+//     console.log(arr2);
+//   });
+// }
 
-getRevStr("This is an example!");
+// getRevStr("This is an example!");
 
 // function getRev(str) {
 //   let arr = str.split(" ");
@@ -120,3 +120,10 @@ getRevStr("This is an example!");
 // }
 
 // getRev("This is an example!");
+
+// function newArr(text) {
+//   let arr = text.split("").reverse().join("");
+//   console.log(arr);
+// }
+
+// newArr("This is an example!");
