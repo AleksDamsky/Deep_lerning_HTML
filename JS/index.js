@@ -100,20 +100,23 @@ function getRevStr(txt) {
   console.log(arr);
   arr.forEach((elem) => {
     console.log(elem);
+    let arr2 = [];
+    arr2.push(elem);
+    console.log(arr2);
   });
 }
 
 getRevStr("This is an example!");
 
-function getRev(str) {
-  let arr = str.split(" ");
-  // console.log(arr);
+// function getRev(str) {
+//   let arr = str.split(" ");
+//   // console.log(arr);
 
-  let arr2 = [];
-  for (let i = 0; i <= arr.length; i++) {
-    arr2.push(arr.shift(0, 0));
-    console.log(arr2);
-  }
-}
+//   let arr2 = [];
+//   for (let i = 0; i <= arr.length; i++) {
+//     arr2.push(arr.shift(0, 0));
+//     console.log(arr2);
+//   }
+// }
 
-getRev("This is an example!");
+// getRev("This is an example!");
