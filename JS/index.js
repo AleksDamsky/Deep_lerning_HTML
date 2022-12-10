@@ -69,13 +69,27 @@
 
 // reverseText("This is an example!");
 
-function revWords(text) {
-  let arr = text.split(" ");
-  let arr2 = arr.splice(1).reverse();
-  console.log(arr);
-  console.log(arr2);
-}
+// function revWords(text) {
+//   //поделили на элементы
+//   let arr = text.split(" ");
+//   console.log(arr);
 
-revWords("This is an example!");
+//   let arr2 = arr.shift();
+
+//   console.log(arr2);
+// }
+
+// revWords("This is an example!");
 
 //это называется "слово задом наперед"
+
+function getRevTxt(str) {
+  let newStr = "";
+
+  for (let i = 0; i <= str.length; i++) {
+    newStr += str([str.length - 1] - i);
+  }
+  return newStr;
+}
+
+getRevTxt("This is an example!");
