@@ -108,14 +108,16 @@
 
 // getRevStr("This is an example!");
 
-// function getRev(str) {
-//   let arr = str.split(" ");
+// function getRev(txt) {
+//   let arr = txt.split(" ");
 //   // console.log(arr);
 
 //   let arr2 = [];
 //   for (let i = 0; i <= arr.length; i++) {
-//     arr2.push(arr.shift(0, 0));
-//     console.log(arr2);
+//     return txt
+//       .split(" ")
+//       .map((word) => word.split("").reverse().join(""))
+//       .join(" ");
 //   }
 // }
 
@@ -127,3 +129,23 @@
 // }
 
 // newArr("This is an example!");
+
+/*Задача 6---------------------------------------*/
+
+//Задумка с фильтром была правильной
+// function filterList(l) {
+//   let filter = l.filter((elem) => elem === Number);
+//   console.log(filter);
+// }
+
+// filterList([1, 2, "lol", 3, "sam", "kek"]);
+
+function filterList(arr) {
+  let a = JSON.stringify(arr.filter((item) => typeof item === "number"));
+  console.log(a);
+}
+
+filterList([1, 2, "lol", 3, "sam", "kek"]);
+
+//Надо разобрать, как это так происходит...Если с фильтром и айтемом все ясно, то вот причем тут джейсон - хз
+let a = JSON.stringify(arr.filter((item) => typeof item === "number"));
