@@ -1,0 +1,16 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  display: flex; /*отображение элемента в браузере*/
+  align-items: center; /*выравнивание эементов блока по центру*/
+  justify-content: center; /*выравнивание содержимого элементов по центру*/
+}
+
+canvas {
+  border: 1px solid white;
+}
