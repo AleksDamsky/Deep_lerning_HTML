@@ -1,6 +1,5 @@
 html,
 body {
-  height: 100%;
   margin: 0;
 }
 
@@ -9,6 +8,18 @@ body {
   display: flex; /*отображение элемента в браузере*/
   align-items: center; /*выравнивание эементов блока по центру*/
   justify-content: center; /*выравнивание содержимого элементов по центру*/
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.navigation {
+  text-align: center;
+}
+
+.tetris-title {
+  color: white;
 }
 
 canvas {
