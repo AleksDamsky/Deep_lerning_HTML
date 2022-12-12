@@ -135,3 +135,13 @@ function getNextFigure() {
 }
 
 //следуюший блок будет посвящен действиям над фигурой
+
+//создаем функцию, которая будет поворачивать матричные фигуры на 90 градусов
+
+//https://codereview.stackexchange.com/a/186834 тут про матрицу
+function rotate(matrix) {
+  const N = matrix.length - 1;
+  const result = matrix.map((row, i) => row.map((val, j) => matrix[N - j][i]));
+
+  return result;
+}

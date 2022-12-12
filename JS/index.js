@@ -150,38 +150,47 @@
 // //Надо разобрать, как это так происходит...Если с фильтром и айтемом все ясно, то вот причем тут джейсон - хз
 // let a = JSON.stringify(arr.filter((item) => typeof item === "number"));
 
-let arr = [
-  "a",
-  "b",
-  "c",
-  "d",
-  "e",
-  "f",
-  "g",
-  "h",
-  "i",
-  "j",
-  "k",
-  "l",
-  "m",
-  "n",
-  "o",
-  "p",
-  "q",
-  "r",
-  "s",
-  "t",
-  "u",
-  "v",
-  "w",
-  "x",
-  "y",
-  "z",
-];
+// let arr = [
+//   "a",
+//   "b",
+//   "c",
+//   "d",
+//   "e",
+//   "f",
+//   "g",
+//   "h",
+//   "i",
+//   "j",
+//   "k",
+//   "l",
+//   "m",
+//   "n",
+//   "o",
+//   "p",
+//   "q",
+//   "r",
+//   "s",
+//   "t",
+//   "u",
+//   "v",
+//   "w",
+//   "x",
+//   "y",
+//   "z",
+// ];
 
-function alphabetPosition(text) {
-  let a = text.split("");
-  console.log(a);
+// function alphabetPosition(text) {
+//   let a = text.split("");
+//   console.log(a);
+// }
+
+// alphabetPosition("The sunset sets at twelve o'clock");
+
+//продолжаем решать фундаментальные задачки
+
+//n - это число, на которое должны делиться следующие выводимые числа; x - это то число, указывающее количество цифр, которое нужно добавить в массив.
+function countBy(n, x) {
+  let z = [];
 }
 
-alphabetPosition("The sunset sets at twelve o'clock");
+countBy(1, 12);
