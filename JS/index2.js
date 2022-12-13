@@ -1,3 +1,5 @@
+/*https://thecode.media/tetris/*/
+
 //создаем переменную, для пользования хослтом
 const holst = document.getElementById("game");
 //создаем переменную для того, чтобы показать, какой вид игры у нас будет
@@ -146,7 +148,7 @@ function rotate(matrix) {
   return result;
 }
 
-//следующий блок нужен для того, чтобы узнать, касается ли фигура краев и не выходит ли она за них
+//следующий блок нужен для того, чтобы узнать, касается ли фигура краев и не выходит ли она за них или не упрелась ли она в другие фигуры
 
 //создаем функцию, которая включает в себя матрицу(нарисованную фигуру), столбцы и строки. Cell - ячейка
 function isValidRotate(matrix, cellRow, cellCol) {
@@ -167,6 +169,21 @@ function isValidRotate(matrix, cellRow, cellCol) {
           arr[cellCol + col][cellRow + row])
       ) {
         return false;
+      }
+    }
+  }
+  return true;
+}
+
+//следующий блок нужен для проверки целостности рядов
+function placeFigure() {
+  for (let row = 0; row < arr.matrix.length; row++) {
+    for (let col = 0; col < arr.mtrix[row].length; col++) {
+      if (arr.matrix[col][row]) {
+        if (arr.row + row < 0) {
+          return gameOver();
+        }
+        arr[row + row][col + col] = watching.name;
       }
     }
   }
