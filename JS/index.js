@@ -192,11 +192,16 @@
 function countBy(n, x) {
   let z = [];
 
-  //цикл, позволяющий заполнить массив от n до x
   while (n <= x) {
     z.push(n++);
   }
-  console.log(z);
-}
 
-countBy(3, 12);
+  console.log(z);
+  //цикл, позволяющий заполнить массив от n до x
+  // // for (let i = 0; i < x; i++) {
+  //   if (i % n === 0) {
+  //     z.push(i);
+  //   }
+  // }
+}
+countBy(1, 12);
