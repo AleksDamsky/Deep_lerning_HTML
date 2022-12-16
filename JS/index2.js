@@ -1,3 +1,17 @@
+let button = document.querySelector(".btn-theme");
+let body = document.querySelector(".page");
+let canva = document.querySelector(".canva");
+
+button.onclick = function () {
+  body.classList.toggle("light-theme");
+  body.classList.toggle("dark-theme");
+};
+
+button.onclick = function () {
+  canva.classList.toggle("light-border");
+  canva.classList.toggle("dark-border");
+};
+
 /*https://thecode.media/tetris/*/
 
 //создаем переменную, для пользования хослтом

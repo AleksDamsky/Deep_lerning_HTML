@@ -22,6 +22,24 @@ body {
   color: white;
 }
 
-canvas {
+.canva {
   border: 1px solid white;
+}
+
+/*темная и светлая тема для боди*/
+.light-theme {
+  background-color: #fff;
+}
+
+.dark-theme {
+  background-color: black;
+}
+
+/*Темная и светлая тема для рамки тетриса*/
+.dark-border {
+  border: 1px solid white;
+}
+
+.light-border {
+  border: 1px solid black;
 }

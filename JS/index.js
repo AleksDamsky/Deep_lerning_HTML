@@ -223,14 +223,25 @@
 
 //В следующей задаче нужно сделать функцию, которая ищет в массиве нужный элемент и выводить его индекс
 
-function findElem(arr, elem) {
-  // let z = arr.find((arr, index) => elem);
-  let z = arr.indexOf(elem, 0);
+// function findElem(arr, elem) {
+//   // let z = arr.find((arr, index) => elem);
+//   let z = arr.indexOf(elem, 0);
 
-  console.log(`Вот индекс искомого элемента: ${z}`);
+//   console.log(`Вот индекс искомого элемента: ${z}`);
+// }
+
+// findElem(
+//   ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"],
+//   "junk"
+// );
+
+/*---------------------------------------------------------*/
+function sumArray(array) {
+  let newArray = [];
+
+  newArray.push(array.sort(-1));
+
+  console.log(newArray);
 }
 
-findElem(
-  ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"],
-  "junk"
-);
+sumArray([6, 2, 35, 1, 6]);
