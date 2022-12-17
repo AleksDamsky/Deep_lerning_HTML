@@ -238,17 +238,13 @@
 /*---------------------------------------------------------*/
 //Создать функцию, которая принимает массив с числами и выводи сумму тех, которые не являются первым и последним элементом массива
 
+//мой способ решения через перебор
 function sumArray(array) {
   let newArray = []; //создал новый массив;
 
   newArray = array.sort((a, b) => a - b); //отсортировал в порядке возрастания элекменты в порядке возрастания;
   console.log(newArray); // попробовал вывести;
 
-  // for (let i = 0; i <= newArray.length; i++) {
-  //   //перебор элементов массива со второго числа (которое не самое маленькое) до предпоследнего элемента (которое не самое большое)
-  //   let sum = newArray[1] + newArray[2] + newArray[3]; //этой строкой я получаю ответ, но при суммировании каждого элемента поочередно руками;
-  //   console.log(sum);
-  // }
   for (let i = 0; i <= newArray.length; i++) {
     if (i !== newArray[1] && i !== newArray[-1]) {
       //неправильная проверка элементов
@@ -259,4 +255,27 @@ function sumArray(array) {
 }
 
 sumArray([6, 2, 35, 1, 6]);
-// sumArray([6, 2, 3, 9]);
+
+//помогли с решением
+
+function getSum(array) {
+  let newArr = array
+    .sort((a, b) => a - b)
+    .slice(1, -1)
+    .reduce((a, b) => a + b, 0);
+
+  console.log(newArr);
+}
+
+getSum([4, 2, 6, 2, 2, 6, 75, 92]);
+
+// мой гибрид
+
+function myFunc(array) {
+  let newMassiv = array.sort((a, b) => a - b);
+
+  // newMassiv =
+  console.log(newMassiv);
+}
+
+myFunc([4, 2, 6, 2, 2, 6, 75, 92]);
