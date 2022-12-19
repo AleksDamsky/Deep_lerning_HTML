@@ -16,7 +16,47 @@
     <title>My front</title>
   </head>
   <body>
-    hello world
+    <!-- Основная обертка сайта -->
+    <div class="wrapper">
+      <!-- Шапка -->
+      <header class="header">
+        <!-- Контейнер. Контейнер-шапка -->
+        <div class="container header-container">
+          <!-- Первый блок шапки. Тема и лого -->
+          <nav class="nav-block-one">
+            <ul class="block-one-element">
+              <li class="element-theme">
+                <button class="btn-theme">Change theme</button>
+              </li>
+              <li class="element-logo">HRIPNV</li>
+            </ul>
+          </nav>
+          <!-- Второй блок шапки. Фотография -->
+          <div class="nav-block-two">
+            <img
+              src="img/я.jpg"
+              alt="My-face"
+              width="300px"
+              style="border-radius: 50%"
+            />
+          </div>
+          <!-- Третий блок шапки. гит, вк, телега -->
+          <nav class="nav-block-third">
+            <ul class="block-third-element">
+              <li class="element-git">
+                <a href="http://" target="_blank">Git</a>
+              </li>
+              <li class="element-vk">
+                <a href="http://" target="_blank">Vk</a>
+              </li>
+              <li class="element-tg">
+                <a href="http://" target="_blank">Tg</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
 
     <script src="JS/index.js"></script>
   </body>
