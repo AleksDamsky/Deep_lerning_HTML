@@ -273,9 +273,11 @@ getSum([4, 2, 6, 2, 2, 6, 75, 92]);
 
 function myFunc(array) {
   let newMassiv = array.sort((a, b) => a - b);
+  console.log(newMassiv); //[2, 2, 2, 4, 6, 6, 75, 92]
 
-  // newMassiv =
-  console.log(newMassiv);
+  for(let i = 0; i <= newMassiv.length; i++){
+    
+  }
 }
 
 myFunc([4, 2, 6, 2, 2, 6, 75, 92]);
