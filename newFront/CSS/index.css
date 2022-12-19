@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 body {
@@ -10,4 +11,47 @@ body {
   box-sizing: border-box;
   font-size: 20px;
   font-family: "Shadows Into Light", cursive;
+}
+
+.elem-theme,
+.elem-logo,
+.elem-git,
+.elem-vk,
+.elem-tg {
+  padding: 40px;
+}
+
+.container {
+  width: 90%;
+  margin: 25px 100px 100px;
+}
+
+.header,
+.block-one-elem,
+.block-third-elem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-block-one {
+  display: flex;
+  justify-content: baseline;
+}
+
+.block-for-text {
+  width: 70%;
+  border: 2px solid black;
+  padding: 1em;
+}
+
+.block-for-link {
+  margin-left: 150px;
+  border: 2px solid black;
+  padding: 1em;
+}
+
+.link-library,
+.link-blog,
+.link-family {
+  padding-top: 20px;
 }
