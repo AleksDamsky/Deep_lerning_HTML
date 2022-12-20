@@ -33,6 +33,15 @@ body {
   justify-content: space-between;
 }
 
+.elem-logo {
+  cursor: pointer;
+  color: black;
+}
+
+.elem-logo-change:active {
+  color: blueviolet;
+}
+
 .main-block-one {
   display: flex;
   justify-content: baseline;
