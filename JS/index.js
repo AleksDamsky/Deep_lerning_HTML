@@ -239,45 +239,79 @@
 //Создать функцию, которая принимает массив с числами и выводи сумму тех, которые не являются первым и последним элементом массива
 
 //мой способ решения через перебор
-function sumArray(array) {
-  let newArray = []; //создал новый массив;
+// function sumArray(array) {
+//   let newArray = []; //создал новый массив;
 
-  newArray = array.sort((a, b) => a - b); //отсортировал в порядке возрастания элекменты в порядке возрастания;
-  console.log(newArray); // попробовал вывести;
+//   newArray = array.sort((a, b) => a - b); //отсортировал в порядке возрастания элекменты в порядке возрастания;
+//   console.log(newArray); // попробовал вывести;
 
-  for (let i = 0; i <= newArray.length; i++) {
-    if (i !== newArray[1] && i !== newArray[-1]) {
-      //неправильная проверка элементов
-      let sum = newArray.reduce((a, b) => a + b);
-      console.log(sum);
-    }
-  }
-}
+//   for (let i = 0; i <= newArray.length; i++) {
+//     if (i !== newArray[1] && i !== newArray[-1]) {
+//       //неправильная проверка элементов
+//       let sum = newArray.reduce((a, b) => a + b);
+//       console.log(sum);
+//     }
+//   }
+// }
 
-sumArray([6, 2, 35, 1, 6]);
+// sumArray([6, 2, 35, 1, 6]);
 
-//помогли с решением
+// //помогли с решением
+
+// function getSum(array) {
+//   let newArr = array
+//     .sort((a, b) => a - b)
+//     .slice(1, -1)
+//     .reduce((a, b) => a + b, 0);
+
+//   console.log(newArr);
+// }
+
+// getSum([4, 2, 6, 2, 2, 6, 75, 92]);
+
+// // мой гибрид
+
+// function myFunc(array) {
+//   let newMassiv = array.sort((a, b) => a - b);
+//   console.log(newMassiv); //[2, 2, 2, 4, 6, 6, 75, 92]
+
+//   for(let i = 0; i <= newMassiv.length; i++){
+
+//   }
+// }
+
+// myFunc([4, 2, 6, 2, 2, 6, 75, 92]);
 
 function getSum(array) {
-  let newArr = array
-    .sort((a, b) => a - b)
-    .slice(1, -1)
-    .reduce((a, b) => a + b, 0);
-
-  console.log(newArr);
+  let newAr = array.reduce((a, b) => a + b);
+  console.log("Сумма элементов массива: " + newAr);
 }
 
-getSum([4, 2, 6, 2, 2, 6, 75, 92]);
+getSum([3, 5, 4]);
 
-// мой гибрид
-
-function myFunc(array) {
-  let newMassiv = array.sort((a, b) => a - b);
-  console.log(newMassiv); //[2, 2, 2, 4, 6, 6, 75, 92]
-
-  for(let i = 0; i <= newMassiv.length; i++){
-    
-  }
+//решение на codeWars
+function betterThanAverage(classPoints, yourPoints) {
+  return (
+    yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length
+  );
 }
 
-myFunc([4, 2, 6, 2, 2, 6, 75, 92]);
+//Задача - необходимо удалить каждый второй элемент массива и вывести его
+
+// function removEveryOther(array) {
+//   let newAr = array.forEach((elem) => {
+//     array.slice(2, 0);
+//   });
+//   console.log(newAr);
+// }
+
+// removEveryOther([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+// removEveryOther(["Hello", "Goodbye", "Hello Again"]);
+
+function removEveryOther(array) {
+  let newAr;
+  console.log(newAr);
+}
+
+removEveryOther([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+removEveryOther(["Hello", "Goodbye", "Hello Again"]);
