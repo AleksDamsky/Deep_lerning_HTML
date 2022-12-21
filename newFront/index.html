@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="CSS/index.css" />
     <title>My site</title>
   </head>
-  <body>
+  <body class="light-theme">
     <div class="wrapper">
       <div class="container header-container">
         <header class="header">
@@ -15,7 +15,14 @@
           <nav class="nav-block-one">
             <ul class="block-one-elem">
               <li class="elem-theme">
-                <button class="btn-theme">Change theme</button>
+                <button class="btn-theme">
+                  <span class="btn-theme-span"
+                    ><img
+                      class="btn-theme-img ligth-theme"
+                      src="img/Web/icons8-поменять-тему-cute-color-32.png"
+                      alt="icon-for-changeTheme"
+                  /></span>
+                </button>
               </li>
               <li class="elem-logo elem-logo-change elem-logo-active">
                 HRIPNV
@@ -24,12 +31,7 @@
           </nav>
           <!-- Блок второй. Аватар  -->
           <div class="nav-block-two">
-            <img
-              src="img/я.jpg"
-              alt="My-face"
-              width="300px"
-              style="border-radius: 50%"
-            />
+            <img class="elem-img" src="img/я.jpg" alt="My-face" />
           </div>
           <!-- Блок третий. Гит, вк, тг -->
           <nav class="nav-block-third">
@@ -68,6 +70,10 @@
               <li class="link-library">What books I read.</li>
               <li class="link-blog">My blog.</li>
               <li class="link-family">My family.</li>
+              <li class="link-counter">
+                Counter:
+                <span class="link-counter-text"></span>
+              </li>
             </ul>
           </div>
         </main>

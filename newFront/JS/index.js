@@ -1,12 +1,13 @@
-// let text = document.querySelector(".block-for-text");
-
-// text.textContent = "lol";
-
+let btnTheme = document.querySelector(".btn-theme");
+let btnImg = document.querySelector(".btn-theme-img");
+let body = document.querySelector(".light-theme");
 let logo = document.querySelector(".elem-logo");
-// let logoActive = document.querySelector(".elem-logo-active");
+let countPlace = document.querySelector(".link-counter-text");
+let counter = 0;
 
 //Фича конечно топ, но при нажатии "ОК"(когда имя не введено) выплывает: "Alloha !"
 logo.onclick = function () {
+  counter++;
   let name = prompt(`Hello bro!
   Whats your name?`);
   if (name !== null) {
@@ -14,10 +15,12 @@ logo.onclick = function () {
   } else {
     alert("Hmmm...");
   }
+  countPlace.textContent = counter;
 };
 
-//функия, которая позволяет менять цвет при нажати...(это не так. Просто в css есть псевдокласс :active);
-// logoActive.onclick = function () {
-//   logoActive.classList.toggle(".elem-logo-change");
-// };
-//ладно, при активации этих строк не работает код выше. Их нужно соеденить.
+//изменение темы фронта
+btnTheme.onclick = function () {
+  body.classList.toggle("dark-theme"); //Обрати внимаение, что при изменении фона, здесь не нужно указывать точку.
+  body.classList.toggle("light-theme");
+  btnTheme.classList.toggle("dark-theme");
+};

@@ -6,6 +6,7 @@
   list-style: none;
 }
 
+/*Body*/
 body {
   width: 1400px;
   box-sizing: border-box;
@@ -13,6 +14,23 @@ body {
   font-family: "Shadows Into Light", cursive;
 }
 
+/*Переключатель темы*/
+.light-theme {
+  background-color: rgba(255, 255, 255, 0.267);
+}
+.dark-theme {
+  background-color: rgba(0, 0, 0, 0.212);
+}
+
+/*контейнер общий*/
+.container {
+  width: 90%;
+  margin: 25px 100px 100px;
+}
+
+/*----------Шапка-----------------------------------------*/
+
+/*Отступы в шапке*/
 .elem-theme,
 .elem-logo,
 .elem-git,
@@ -21,11 +39,20 @@ body {
   padding: 40px;
 }
 
-.container {
-  width: 90%;
-  margin: 25px 100px 100px;
+/*Кнопка изменения темы на сайте*/
+.btn-theme {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.267);
+  font-family: "Shadows Into Light", cursive;
 }
 
+/*Image*/
+.elem-img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+/*Расположение блоков в шапке*/
 .header,
 .block-one-elem,
 .block-third-elem {
@@ -61,6 +88,7 @@ body {
 
 .link-library,
 .link-blog,
-.link-family {
+.link-family,
+.link-counter {
   padding-top: 20px;
 }
