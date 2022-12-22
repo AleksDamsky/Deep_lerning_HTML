@@ -22,5 +22,5 @@ logo.onclick = function () {
 btnTheme.onclick = function () {
   body.classList.toggle("dark-theme"); //Обрати внимаение, что при изменении фона, здесь не нужно указывать точку.
   body.classList.toggle("light-theme");
-  btnTheme.classList.toggle("dark-theme");
+  btnImg.classList.toggle("dark-theme");
 };

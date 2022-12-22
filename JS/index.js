@@ -308,10 +308,71 @@ function betterThanAverage(classPoints, yourPoints) {
 // removEveryOther([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 // removEveryOther(["Hello", "Goodbye", "Hello Again"]);
 
-function removEveryOther(array) {
-  let newAr;
-  console.log(newAr);
+// function removEveryOther(array) {
+//   let newAr;
+//   console.log(newAr);
+// }
+
+// removEveryOther([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+// removEveryOther(["Hello", "Goodbye", "Hello Again"]);
+
+//Задача - выводить последующий цвет после введенного цвета.
+//>>"red"
+//>>"yellow"
+
+// function updateLight(current) {
+//   if (current === "red") {
+//     console.log("yellow");
+//   } else if (current === "yellow") {
+//     console.log("green");
+//   } else if (current === "green") {
+//     console.log("red");
+//   }
+// }
+
+// updateLight("green");
+
+// --------->
+
+// function updateLight(current) {
+//   let a =
+//     current === "yellow" ? "red" : current === "green" ? "yellow" : "green";
+//   console.log(a);
+// }
+
+// updateLight("red");
+
+// --------->
+
+// const reverseSeq = (n) => {
+//   let a = n.sort((a, b) => b - a);
+
+//   console.log(a);
+// };
+
+// reverseSeq([4, 5, 1, 3, 2]);
+//---------->
+// const reverseSeq = (n) => {
+//   let a = [];
+//   while (n >= 0) {
+//     a.push(n--);
+//   }
+//   console.log(a);
+// };
+
+// reverseSeq(5);
+
+//----------->
+
+function feast(beast, dish) {
+  let bi = beast.split("");
+  let di = dish.split("");
+
+  if (bi[0] === di[0]) {
+    console.log(true); //return
+  } else {
+    console.log(false); //return
+  }
 }
 
-removEveryOther([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
-removEveryOther(["Hello", "Goodbye", "Hello Again"]);
+feast("lol", "soliks");
