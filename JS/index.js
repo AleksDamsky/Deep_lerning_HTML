@@ -375,4 +375,10 @@ function feast(beast, dish) {
   }
 }
 
-feast("lol", "soliks");
+feast("lol", "loliks");
+
+// let a = {
+//   if (d === 1) {
+//     console.log("hello");
+//   }
+// }
