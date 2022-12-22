@@ -10,10 +10,19 @@
 body {
   width: 1400px;
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 23px;
   font-family: "Shadows Into Light", cursive;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: darkgoldenrod;
+  transition: all 0.2s;
+}
 /*Переключатель темы*/
 .light-theme {
   background-color: rgba(255, 255, 255, 0.267);
@@ -32,6 +41,7 @@ body {
 
 .header {
   background-color: cadetblue;
+  font-size: 30px;
 }
 
 /*Отступы в шапке*/
@@ -52,8 +62,11 @@ body {
 
 /*Image*/
 .elem-img {
-  width: 300px;
+  width: 200px;
   border-radius: 50%;
+  position: absolute;
+  margin-left: -3em;
+  box-shadow: 0 -1em 2em 0.8em rgb(206, 226, 19);
 }
 
 /*Расположение блоков в шапке*/
