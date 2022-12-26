@@ -26,9 +26,22 @@ btnTheme.onclick = function () {
 };
 /* ---------------------------------------------*/
 //создание элементов-подсказок;
-let toolsButton = querySelector(".example-btn");
-let toolsText = querySelector(".tools-text");
+// let toolsButton = querySelector(".example-btn");
+// let toolsText = querySelector(".tools-text");
 
-toolsButton.onclick = function () {
-  toolsText.textContent = toolsButton.dataset.toolsText;
-};
+// toolsButton.onclick = function () {
+//   toolsText.textContent = toolsButton.dataset.toolsText;
+// };
+function squareSum(numbers) {
+  let arr = [];
+  let newArr = [];
+  for (let i = 0; i < numbers.length; i++) {
+    let a = numbers[i] ** 2;
+    arr.push(a);
+    newArr = arr.reduce((v, z) => v + z);
+  }
+
+  console.log(newArr);
+}
+squareSum([1, 2, 2]);
+squareSum([1, 2, 3, 2]);
