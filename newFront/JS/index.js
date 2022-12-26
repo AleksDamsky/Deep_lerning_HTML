@@ -24,3 +24,11 @@ btnTheme.onclick = function () {
   body.classList.toggle("light-theme");
   btnImg.classList.toggle("dark-theme");
 };
+/* ---------------------------------------------*/
+//создание элементов-подсказок;
+let toolsButton = querySelector(".example-btn");
+let toolsText = querySelector(".tools-text");
+
+toolsButton.onclick = function () {
+  toolsText.textContent = toolsButton.dataset.toolsText;
+};
