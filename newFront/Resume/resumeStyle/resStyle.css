@@ -45,3 +45,11 @@ body {
   line-height: 30px;
   word-spacing: 10px;
 }
+
+/*canvas*/
+.game {
+  text-align: center;
+}
+.canva {
+  background-color: rgb(109, 108, 108);
+}

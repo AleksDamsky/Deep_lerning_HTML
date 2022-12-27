@@ -46,4 +46,15 @@ function squareSum(numbers) {
   console.log(newArr);
 }
 squareSum([1, 2, 2]);
-// squareSum([1, 2, 3, 2]);
+squareSum([0, 3, 4, 5]);
+
+function areYouPlayingBanjo(strName) {
+  if (strName[0] === "r" || strName[0] === "R") {
+    console.log(`${strName} play banjo`);
+  } else {
+    console.log(`${strName} does not playing banjo`);
+  }
+}
+
+areYouPlayingBanjo("Robert");
+areYouPlayingBanjo("sam");
