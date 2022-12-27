@@ -32,6 +32,8 @@ btnTheme.onclick = function () {
 // toolsButton.onclick = function () {
 //   toolsText.textContent = toolsButton.dataset.toolsText;
 // };
+
+//Задачи для мозга и понимания
 function squareSum(numbers) {
   let arr = [];
   let newArr = [];
@@ -44,4 +46,4 @@ function squareSum(numbers) {
   console.log(newArr);
 }
 squareSum([1, 2, 2]);
-squareSum([1, 2, 3, 2]);
+// squareSum([1, 2, 3, 2]);
