@@ -67,3 +67,7 @@ function DNAtoRNA(dna) {
     }
   }
 }
+
+let arr = [0, 1, 2, 3, 4, 5, 6];
+console.log(arr.slice(0, 3));
+console.log(arr);
