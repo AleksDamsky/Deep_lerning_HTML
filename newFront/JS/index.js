@@ -47,7 +47,7 @@ function squareSum(numbers) {
 }
 squareSum([1, 2, 2]);
 squareSum([0, 3, 4, 5]);
-
+/*---------------------------------------------------------------------*/
 function areYouPlayingBanjo(strName) {
   if (strName[0] === "r" || strName[0] === "R") {
     console.log(`${strName} play banjo`);
@@ -58,3 +58,12 @@ function areYouPlayingBanjo(strName) {
 
 areYouPlayingBanjo("Robert");
 areYouPlayingBanjo("sam");
+
+/*---------------------------------------------------------------------*/
+function DNAtoRNA(dna) {
+  for (let i = 0; i < dna.length; i++) {
+    if (dna[i] == "T") {
+      //если есть индекс, который равен "T", то вычленить его - каким методом? pop(), shift(), slice() || splice()
+    }
+  }
+}
