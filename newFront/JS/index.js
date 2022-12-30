@@ -141,6 +141,20 @@ btnTheme.onclick = function () {
 // let b = Number(a);
 
 // console.log(typeof b);
-let arr = ["lol", "lel", "kek", "sam"];
-let newArr = arr.join("");
-console.log(newArr);
+// let arr = ["lol", "lel", "kek", "sam"];
+// let newArr = arr.join("");
+// console.log(newArr);
+
+// const rps = (p1, p2) => {
+//   switch (p1, p2){
+//       case p1 == "scissors" && p2 == "paper":
+//       return "Player 1 won!";
+//       break;
+//       case p1 == "scissors" && p2 == "rock":
+//       return "Player 2 won!";
+//       break;
+//       case p1 == "paper" && p2 == "paper":
+//       return "Draw!";
+//       break;
+//   }
+// };
