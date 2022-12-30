@@ -129,8 +129,18 @@ btnTheme.onclick = function () {
 
 //other dicide
 
-function setAlarm(e, v) {
-  console.log(e && !v);
-}
+// function setAlarm(e, v) {
+//   console.log(e && !v);
+// }
 
-setAlarm(false, false);
+// setAlarm(false, false);
+// let arr = [1, 2, 4, 6, 7, `lol`, 8, 34, 14, 33];
+// console.log(arr.indexOf(`lol`, 0));
+// let a = `234`;
+
+// let b = Number(a);
+
+// console.log(typeof b);
+let arr = ["lol", "lel", "kek", "sam"];
+let newArr = arr.join("");
+console.log(newArr);
