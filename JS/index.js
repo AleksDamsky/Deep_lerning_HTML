@@ -282,19 +282,19 @@
 
 // myFunc([4, 2, 6, 2, 2, 6, 75, 92]);
 
-function getSum(array) {
-  let newAr = array.reduce((a, b) => a + b);
-  console.log("Сумма элементов массива: " + newAr);
-}
+// function getSum(array) {
+//   let newAr = array.reduce((a, b) => a + b);
+//   console.log("Сумма элементов массива: " + newAr);
+// }
 
-getSum([3, 5, 4]);
+// getSum([3, 5, 4]);
 
-//решение на codeWars
-function betterThanAverage(classPoints, yourPoints) {
-  return (
-    yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length
-  );
-}
+// //решение на codeWars
+// function betterThanAverage(classPoints, yourPoints) {
+//   return (
+//     yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length
+//   );
+// }
 
 //Задача - необходимо удалить каждый второй элемент массива и вывести его
 
@@ -364,21 +364,58 @@ function betterThanAverage(classPoints, yourPoints) {
 
 //----------->
 
-function feast(beast, dish) {
-  let bi = beast.split("");
-  let di = dish.split("");
+// function feast(beast, dish) {
+//   let bi = beast.split("");
+//   let di = dish.split("");
 
-  if (bi[0] === di[0]) {
-    console.log(true); //return
-  } else {
-    console.log(false); //return
-  }
-}
-
-feast("lol", "loliks");
-
-// let a = {
-//   if (d === 1) {
-//     console.log("hello");
+//   if (bi[0] === di[0]) {
+//     console.log(true); //return
+//   } else {
+//     console.log(false); //return
 //   }
 // }
+
+// feast("lol", "loliks");
+
+// // let a = {
+// //   if (d === 1) {
+// //     console.log("hello");
+// //   }
+// // }
+
+function solution(str) {
+  let a = str.split("").reverse().join("");
+
+  console.log(a);
+}
+solution("word");
+solution("some");
+// -----------------------------------------------------------
+var search = function (nums, target) {
+  let a = nums.indexOf(target);
+  console.log(a);
+};
+
+search([-1, 9, 3, 6, 7, 2, 32, 55, 62, 0, 8], 51);
+search([-1, 9, 3, 6, 7, 2, 32, 55, 62, 0, 8], 62);
+// -----------------------------------------------------------
+// let badNum = (num, bad) => {
+//   var a = bad < 5;
+//   switch(num, bad){
+//       case num > 5: return true;
+//       break;
+//       case num === a: return false;
+//       break;
+//   }
+// }
+
+// badNum(5, 4);
+let badNum = (num, bad) => {
+  if (num >= 5) {
+    console.log(true);
+  } else {
+    console.log(false);
+  }
+};
+
+badNum(1, 5);
