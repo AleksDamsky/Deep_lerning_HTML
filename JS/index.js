@@ -516,13 +516,13 @@
 // }
 // console.log(res);
 
-let n = 10,
-  a;
+// let n = 10,
+//   a;
 
-point: for (let i = 0; i <= n; i++) {
-  for (let j = 0; j < i; j++) {
-    if (j % i == 0) continue point;
-    a += j;
-  }
-  console.log(a);
-}
+// point: for (let i = 0; i <= n; i++) {
+//   for (let j = 0; j < i; j++) {
+//     if (j % i == 0) continue point;
+//     a += j;
+//   }
+//   console.log(a);
+// }
