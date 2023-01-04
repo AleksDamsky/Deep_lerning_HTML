@@ -489,3 +489,40 @@
 //   let res = i % 2 == 0 ? console.log(i) : false;
 //   console.log(res);
 // }
+
+// let input = +prompt(`Введите число больше 100`, `x > 100`);
+
+// while (input) {
+//   if (input == null) {
+//     break;
+//   } else if (input <= 100) {
+//     return input;
+//   } else if (input > 100) {
+//     alert(`Круть!`);
+//   }
+//   break;
+// }
+// let input;
+
+// do {
+//   input = +prompt(`Need your number`, `x > 100`);
+// } while (input <= 100 && input);
+
+// let res;
+
+// for (let i = 0; i < 10; i++) {
+//   if (i % 2 == 0) continue;
+//   res += i;
+// }
+// console.log(res);
+
+let n = 10,
+  a;
+
+point: for (let i = 0; i <= n; i++) {
+  for (let j = 0; j < i; j++) {
+    if (j % i == 0) continue point;
+    a += j;
+  }
+  console.log(a);
+}
