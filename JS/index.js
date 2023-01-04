@@ -410,12 +410,50 @@ search([-1, 9, 3, 6, 7, 2, 32, 55, 62, 0, 8], 62);
 // }
 
 // badNum(5, 4);
-let badNum = (num, bad) => {
-  if (num >= 5) {
-    console.log(true);
-  } else {
-    console.log(false);
-  }
-};
+// let badNum = (num, bad) => {
+//   if (num >= 5) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// };
 
-badNum(1, 5);
+// badNum(1, 5);
+
+// let replace = (str) => {
+//   let result = str.replace(/S/gi, "5"); //
+//   console.log(result);
+// };
+
+// replace("lol");
+
+// let request = prompt(`Какой официальное название у JavaScript?`);
+
+// if (request == "ECMAScript") {
+//   console.log("Все верно!");
+// } else {
+//   console.log(`Вы не знаете?`);
+// }
+
+// let getRequest = () => {
+//   let req = prompt(`Какой официальное название у JavaScript?`);
+//   if (req === "ECMAScript") {
+//     alert(`Верно!`);
+//   } else {
+//     console.log(`Вы не знаете ECMAScript?`);
+//   }
+// };
+
+// getRequest();
+
+let request = prompt(`Need you number?`);
+
+if (request >= 0) {
+  alert(+request);
+} else if (typeof request === String) {
+  alert("...");
+} else if (request == 0) {
+  alert(0);
+} else {
+  alert(-1);
+}
