@@ -383,22 +383,22 @@
 // //   }
 // // }
 
-function solution(str) {
-  let a = str.split("").reverse().join("");
+// function solution(str) {
+//   let a = str.split("").reverse().join("");
 
-  console.log(a);
-}
-solution("word");
-solution("some");
-// -----------------------------------------------------------
-var search = function (nums, target) {
-  let a = nums.indexOf(target);
-  console.log(a);
-};
+//   console.log(a);
+// }
+// solution("word");
+// solution("some");
+// // -----------------------------------------------------------
+// var search = function (nums, target) {
+//   let a = nums.indexOf(target);
+//   console.log(a);
+// };
 
-search([-1, 9, 3, 6, 7, 2, 32, 55, 62, 0, 8], 51);
-search([-1, 9, 3, 6, 7, 2, 32, 55, 62, 0, 8], 62);
-// -----------------------------------------------------------
+// search([-1, 9, 3, 6, 7, 2, 32, 55, 62, 0, 8], 51);
+// search([-1, 9, 3, 6, 7, 2, 32, 55, 62, 0, 8], 62);
+// // -----------------------------------------------------------
 // let badNum = (num, bad) => {
 //   var a = bad < 5;
 //   switch(num, bad){
@@ -446,14 +446,46 @@ search([-1, 9, 3, 6, 7, 2, 32, 55, 62, 0, 8], 62);
 
 // getRequest();
 
-let request = prompt(`Need you number?`);
+// let request = prompt(`Need you number?`);
 
-if (request >= 0) {
-  alert(+request);
-} else if (typeof request === String) {
-  alert("...");
-} else if (request == 0) {
-  alert(0);
-} else {
-  alert(-1);
-}
+// if (request >= 0) {
+//   alert(+request);
+// } else if (typeof request === String) {
+//   alert("...");
+// } else if (request == 0) {
+//   alert(0);
+// } else {
+//   alert(-1);
+// }
+
+// let result;
+
+// if (a + b < 4) {
+//   result = 'Мало';
+// } else {
+//   result = 'Много';
+// }
+
+// let result = a + b < 4 ? "Мало" : `Много`;
+
+// let message;
+
+// if (login == 'Сотрудник') {
+//   message = 'Привет';
+// } else if (login == 'Директор') {
+//   message = 'Здравствуйте';
+// } else if (login == '') {
+//   message = 'Нет логина';
+// } else {
+//   message = '';
+// }
+
+// let meassage2 = login == `Emploeis` ? message2 = `Hi` :
+// login == `director`? message2 = 'Hello There' : login == `` ? message2 = "No login" :
+// meassage2 = '';
+
+// При помощи цикла for выведите чётные числа от 2 до 10.
+// for (let i = 0; i < 10; ++i) {
+//   let res = i % 2 == 0 ? console.log(i) : false;
+//   console.log(res);
+// }
