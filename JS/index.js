@@ -526,3 +526,83 @@
 //   }
 //   console.log(a);
 // }
+
+// ---------------------------------------------------
+// switch (browser) {
+//     case 'Edge':
+//       alert( "You've got the Edge!" );
+//       break;
+
+//     case 'Chrome':
+//     case 'Firefox':
+//     case 'Safari':
+//     case 'Opera':
+//       alert( 'Okay we support these browsers too' );
+//       break;
+
+//     default:
+//       alert( 'We hope that this page looks ok!' );
+//   }
+// let browser = prompt(`Write a browser, which you use please`);
+
+// if (browser == "Edge") {
+//   alert("You've got the Edge!");
+// } else if (browser == "Chrome") {
+//   alert("You've got the Chrome!");
+// } else if (browser == "Firefox") {
+//   alert("You've got the Firefox!");
+// } else if (browser == "Safari") {
+//   alert("You've got theme Safari!");
+// } else if (browser == "Opera") {
+//   alert("Okay we support these browsers too!");
+// } else {
+//   alert(`We hope that this page looks ok!`);
+// }
+
+// Написать с использованием ИЛИ и ?
+// function checkAge(age) {
+//   if (age > 18) {
+//     return true;
+//   } else {
+//     return confirm("Родители разрешили?");
+//   }
+// }
+
+// function checkAge2(age) {
+//   let res = age > 18 ? true : alert(`Родители разрешили?`);
+//   console.log(res);
+// }
+
+// checkAge2(27);
+
+// let min = (a, b) => {
+//   let res;
+//   switch ((a, b)) {
+//     case a > b:
+//       res += b;
+//       break;
+//     case b > a:
+//       res += a;
+//       break;
+//   }
+//   console.log(res);
+// };
+
+// min(4, 6);
+
+// function min(a, b) {
+//   let res = a > b ? b : a;
+//   console.log(res);
+//   //   return res;
+// }
+// min(4, 6);
+
+let z = +prompt(`Введи множитель`);
+let v = +prompt(`Введи умножитель`);
+
+function answer(z, v) {
+  let pow = z ** v;
+  console.log(pow);
+}
+
+answer();
