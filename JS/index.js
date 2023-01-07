@@ -597,12 +597,25 @@
 // }
 // min(4, 6);
 
-let z = +prompt(`Введи множитель`);
-let v = +prompt(`Введи умножитель`);
+// let z = +prompt(`Введи множитель`);
+// let v = +prompt(`Введи умножитель`);
 
-function answer(z, v) {
-  let pow = z ** v;
-  console.log(pow);
+// function answer(z, v) {
+//   let pow = z ** v;
+//   console.log(pow);
+// }
+
+// answer();
+//
+let ex = document.documentElement.tagName;
+console.log(ex.toLowerCase());
+
+let result = document.documentElement;
+for (let i = 0; i < result.children.length; i++) {
+  let child = result.children[i];
+  console.log(child.tagName.toLowerCase());
+  for (let j = 0; j < child.children.length; j++) {
+    let childChildren = child.children[j];
+    console.log(childChildren.tagName.toLowerCase());
+  }
 }
-
-answer();
