@@ -650,3 +650,87 @@
 // getStr('asdfghj');
 
 // this add for stats on git
+
+// Write a function that takes an array of words and smashes them together into a sentence and returns the sentence. You can ignore any need to sanitize words or add punctuation, but you should add spaces between each word. Be careful, there shouldn't be a space at the beginning or the end of the sentence! 
+
+// let smashWords = (arr) => {
+//     let a = arr.join(" ");
+//     console.log(a);
+// };
+
+// smashWords([`hello`, `world`, `my`, `friend`, `!`]);
+
+// << true
+
+// Given an array of integers your solution should find the smallest integer.
+
+// For example:
+
+// Given [34, 15, 88, 2] your solution will return 2
+// Given [34, -345, -1, 100] your solution will return -345
+// You can assume, for the purpose of this kata, that the supplied array will not be empty.
+
+// let findSmallInt = arr => {
+//     let result = arr.sort((a, b) => a - b);
+
+//     console.log((result[0]));
+
+// }
+
+// findSmallInt([78,56,232,12,8]);
+// findSmallInt([78,56,232,12,18]);
+// findSmallInt([78,56,232,412,228]);
+// << true
+
+// class findSmallestInt {
+//     findSmallInt(arg){
+//         return Math.min(...arg);
+//     }
+// }
+
+
+// class SmallestIntegerFinder {
+//     findSmallestInt = arr => {
+//         let result = arr.sort((a, b) => a - b);
+  
+//         return result[0];
+  
+//   }
+    
+//   }
+
+// Your task is to create a function that does four basic mathematical operations.
+
+// The function should take three arguments - operation(string/char), value1(number), value2(number).
+// The function should return result of numbers after applying the chosen operation.
+
+// function basicOp(operator, value1, value2){
+//     let a;
+//     switch(operator, value1, value2){
+//         case operator === '+':
+//             a += value1 + value2;
+//             console.log(a);
+//             break;
+//         case operator === '-':
+//             a += value1 - value2;
+//             console.log(a);
+//             break;
+//         case operator === '*':
+//             a += value1 * value2;
+//             console.log(a);
+//             break; 
+//         case operator === '/':
+//             a += value1 / value2;
+//             console.log(a);
+//             break;
+//     }
+//     console.log(a);
+// }
+
+// basicOp(`-`, 3, 5);
+
+function basicOp(operator, value1, value2){
+    let result;
+
+    // преобразовать оператор и применить его к значениям?
+}
