@@ -729,8 +729,21 @@
 
 // basicOp(`-`, 3, 5);
 
-function basicOp(operator, value1, value2){
-    let result;
+// function basicOp(operator, value1, value2){
+//     let result;
 
-    // преобразовать оператор и применить его к значениям?
+//     // преобразовать оператор и применить его к значениям?
+// }
+
+let arr = [1, 2, 4, 5, 6, 7, 8, 9, 10];
+
+function sumTwo(arr){
+    let a;
+    if(arr){
+        for(let i = 0; i <= arr.length; i += 2){
+            alert(i);
+        }
+    }
 }
+
+sumTwo(arr);
